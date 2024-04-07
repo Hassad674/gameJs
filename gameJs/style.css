@@ -1,0 +1,34 @@
+    /* Styles CSS */
+    body {
+      margin: 0;
+      text-align: center;
+      font-family: 'Press Start 2P', cursive;
+      user-select: none;
+    }
+
+    /* Styles pour l'en-tête */
+    header {
+      margin: 0 auto;
+      width: 431px;
+    }
+
+    /* Style pour le titre */
+    h1 {
+      background: url('./media/flappy-bird-set.png') 0% 340px;
+      padding: 1.2rem 0;
+      margin: 0;
+    }
+
+    /* Styles pour les scores */
+    .score-container {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 6px;
+      background: #5EE270;
+    }
+
+    /* Style pour le canvas */
+    canvas {
+      display: block;
+      margin: 0 auto;
+    }
